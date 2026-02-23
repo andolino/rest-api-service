@@ -16,7 +16,7 @@ public class HomeController {
         int currentCount = totalRequests.incrementAndGet();
         lastRequestTime = LocalDateTime.now();
 
-        return "Welcome oowa to the REST API Services!\n" +
+        return "Welcome oowa 1 to the REST API Services!\n" +
                "Total Requests: " + currentCount + "\n" +
                "Last Request Time: " + lastRequestTime;
     }
